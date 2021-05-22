@@ -5,11 +5,14 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=project-ml
 
 # Step 2:  
 # Authenticate & tag
-echo "Docker ID and Image: $dockerpath"
+docker login --username vprocopan
+docker tag project-ml vprocopan/project-ml:v1
+echo "Dockeri ID and Image: $dockerpath"
 
 # Step 3:
 # Push image to a docker repository
+docker push vprocopan/project-ml:v1 
