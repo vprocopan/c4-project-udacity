@@ -1,5 +1,4 @@
-<include a CircleCI status badge, here>
-
+[![CircleCI](https://circleci.com/gh/vprocopan/c4-project-udacity.svg?style=svg)](https://app.circleci.com/pipelines/github/vprocopan/c4-project-udacity/21/workflows/cee66691-a5e2-4cd2-b5a0-70ee2cee4bab/jobs/27)
 ## Project Overview
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
